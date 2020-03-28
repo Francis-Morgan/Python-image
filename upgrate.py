@@ -9,6 +9,14 @@ arr = np.asarray(img)
 print(arr)
 print("Picture has ",np.count_nonzero((arr == [0,255,0]).all(axis = 2))," green pixels")
 
+'''
+count = 0
+for y in range(img.height):
+    for x in range(img.width):
+        pixel = img.getpixel((x,y))
+        if pixel == (0,255,0):
+            count += 1
+'''
 
 
 
