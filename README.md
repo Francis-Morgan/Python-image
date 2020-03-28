@@ -25,3 +25,6 @@ Displays this image:
 [There](https://github.com/chichikow/Python-image/blob/master/output_program.PNG) you can see program output.
 
 At the command line, we open our python file and pass it the image location.
+
+----------------------------------------------------------------------------------------------------------------------------------------
+### UPDATED PROGRAM
