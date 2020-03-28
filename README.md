@@ -52,7 +52,31 @@ The first thing we can do is linear search with a counter:
             if pix == (0,255,0):
             count += 1
             
-But this case is not effective. We spend a lot of time, so we can use a numpy function.
+But this case is not effective. We spend a lot of time, so we can use other method.
+
+> numpy.count_nonzero() - counts the number of non-zero values in the array.
+
+     np.count_nonzero(arr)
+
+We get nonzero elements in the picture, but we need only green (0,255,0) elements.
+
+> numpy.all() - Test whether all array elements along a given axis evaluate to True.
+
+    np.count_nonzero((arr == [0,255,0]).all(axis = 2))
+
+We check all array elements along the 2 axis have values (0.255.0). 
+Axis 2, because we have three-dimensional array and we need check a value in pixel 
+
+**OUTPUT**
+
+input picture: 
+
+![](https://github.com/chichikow/Python-image/blob/master/picture1.png)
+
+output:
+
+![](https://github.com/chichikow/Python-image/blob/master/output.PNG)
+
 
 
 
