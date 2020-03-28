@@ -31,4 +31,34 @@ At the command line, we open our python file and pass it the image location.
 
 [This](https://github.com/chichikow/Python-image/blob/master/upgrate.py) is updated program.
 
-### What 
+### What the programs does
+
+the program opens the image from the file and prints its height and width. +the program counts the number of green pixels in the image.
+
+### Code explanation
+
+In our program we use a numpy library and some of its functions.
+
+> numpy.asarray() - Convert the input to an array.
+
+In our case, the input is an image. We get a three-dimensional array.
+
+The first thing we can do is linear search with a counter:
+
+    count = 0
+    for y in range(img.height):
+        for x in range(img.width):
+            pix = img.getpixel((x,y))
+            if pix == (0,255,0):
+            count += 1
+            
+But this case is not effective. We spend a lot of time, so we can use a numpy function.
+
+
+
+
+
+
+
+
+
