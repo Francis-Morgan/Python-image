@@ -22,7 +22,9 @@ Displays this image:
 
 ### Program output 
 
-![](https://github.com/chichikow/Python-image/blob/master/output_program.PNG) There you can see program output.
+![](https://github.com/chichikow/Python-image/blob/master/output_program.PNG) 
+
+There you can see program output.
 
 At the command line, we open our python file and pass it the image location.
 
