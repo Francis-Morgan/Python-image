@@ -2,7 +2,7 @@
 ### What [the program](https://github.com/chichikow/Python-image/blob/master/c_line.py) does
 The program opens the image from the file and prints its height and width.
 ### Сode explanation
-In this program we use the Image module.The module also provides a number of functions, including the functions of loading images from files and creating new images.
+In this program we use the Image module from PIL (Python Image Library).The module also provides a number of functions, including the functions of loading images from files and creating new images.
 >Image.open()
 
 This function opens and identifies the image file. In our program we pass functions 
