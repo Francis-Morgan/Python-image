@@ -1,7 +1,8 @@
 from PIL import Image
 import numpy as np
+import sys
 
-f_name = input() 
+f_name = sys.argv[1] 
 img = Image.open(f_name)
 size = img.size
 print('Image size: ',size)
