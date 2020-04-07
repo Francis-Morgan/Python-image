@@ -5,10 +5,15 @@ The program opens the image from the file and prints its height and width.
 In this program we use the Image module from PIL (Python Image Library).The module also provides a number of functions, including the functions of loading images from files and creating new images.
 >Image.open()
 
+Besides, we'll need the sys module.The sys module provides access to some variables and functions that interact with the python interpreter.
+>sys.argv
+
+sys.argv is a list of command line arguments passed to the Python script. sys.argv[0] - this is the script name.
+
 This function opens and identifies the image file. In our program we pass functions 
 image file location:
           
-    f_name = input() 
+    f_name = sys.argv[1] 
     img = Image.open(f_name)
 
  Get image size:
