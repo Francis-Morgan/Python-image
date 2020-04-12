@@ -1,6 +1,13 @@
 # Python-image
 ### What [the program](https://github.com/chichikow/Python-image/blob/master/c_line.py) does
 The program opens the image from the file and prints its height and width.
+### Instructions
+To find out the size of an image, you need to pass its name using the command line (as shown in the picture). 
+![](https://github.com/chichikow/Python-image/blob/master/inst.PNG)
+
+In case your image and your script are in different directories, you need to pass the path to the image along with its name.
+![](https://github.com/chichikow/Python-image/blob/master/inst2.PNG)
+
 ### Сode explanation
 In this program we use the Image module from PIL (Python Image Library).The module also provides a number of functions, including the functions of loading images from files and creating new images.
 >Image.open()
