@@ -27,7 +27,7 @@ Displays this image:
 
 ### Program output 
 
-![](https://github.com/chichikow/Python-image/blob/master/output_program.PNG) 
+![](https://github.com/chichikow/Python-image/blob/master/new_test.PNG) 
 
 There you can see program output.
 
