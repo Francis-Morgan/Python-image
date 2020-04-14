@@ -81,6 +81,11 @@ We get nonzero elements in the picture, but we need only green (0,255,0) element
 We check all array elements along the 2 axis have values (0.255.0). 
 Axis 2, because we have three-dimensional array and we need check a value in pixel 
 
+***Why is it faster?***
+
+*NumPy is an attempt to combine the speed of calculations of other programming languages with Python.
+The great advantage of NumPy is a large set of ready-made mathematical functions, covering many sections of mathematics.*
+
 **OUTPUT**
 
 input picture: 
